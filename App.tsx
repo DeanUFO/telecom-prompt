@@ -405,7 +405,7 @@ const App: React.FC = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-slate-600 tracking-tight">
-                電信技術提示詞生成器
+                AI 驅動的電信技術提示生成系統
               </h1>
               <p className="text-sm text-slate-500 font-semibold tracking-wide uppercase opacity-80">
                 Telecom Technical Prompt Generator
@@ -421,10 +421,6 @@ const App: React.FC = () => {
             >
               <Settings className="w-5 h-5" />
             </button>
-            <div className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50/80 border border-blue-100 text-sm font-semibold text-blue-700 shadow-sm">
-              <Sparkles className="w-4 h-4" />
-              <span>Powered by Gemini 2.5</span>
-            </div>
           </div>
         </div>
       </header>
